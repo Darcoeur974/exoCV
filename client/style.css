@@ -1,30 +1,39 @@
 body {
     padding: 10px;
+    background: rgb(212, 212, 212);
+    background: linear-gradient(90deg, rgba(212, 212, 212, 1) 14%, rgba(215, 226, 228, 1) 100%);
 }
+
 ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 .infoComple {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 ul h3 {
     margin-right: 25px;
 }
+
 li {
     margin-left: 25px;
     margin-right: 10px;
 }
+
 i {
     padding: 5px;
 }
+
 .header-principal {
     padding: 10px;
 }
+
 .header-principal h1 {
     text-align: center;
 }
@@ -36,42 +45,52 @@ i {
     background-color: lightcyan;
     padding-top: 20px;
     height: 50px;
+    border-radius: 25%;
 }
+
 header h2 {
     text-align: center;
 }
+
 section {
     margin: 25px;
     width: 100%;
 }
+
 .container-fluid {
     display: flex;
     flex-direction: row;
     align-content: space-around;
 }
+
 .container {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     align-content: space-between;
 }
-.H-principal{
+
+.H-principal {
     display: flex;
     align-items: center;
     align-content: space-between;
     justify-content: center;
 }
+
 .section-principal {
     background-color: lightcyan;
     padding: 10px;
 }
+
 .section-secondaire {
     background-color: lightcyan;
     padding: 10px;
 }
+
 .article-un {
     display: flex;
 }
+
 .block {
     margin: 10px;
 }
@@ -83,14 +102,27 @@ nav {
 footer {
     text-align: center;
     background-color: lightcyan;
+    width: 100%;
 }
+
+footer img {
+    width: 100px;
+}
+
 .form-group {
     margin: 5px;
 }
+
 .test {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
+
 img {
     width: 100%;
+}
+
+.profil {
+    border-radius: 25%;
 }
