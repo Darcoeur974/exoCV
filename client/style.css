@@ -7,6 +7,11 @@ ul {
     justify-content: center;
     align-items: center;
 }
+.infoComple {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 ul h3 {
     margin-right: 25px;
 }
@@ -18,7 +23,6 @@ i {
     padding: 5px;
 }
 .header-principal {
-    background-color: purple;
     padding: 10px;
 }
 .header-principal h1 {
@@ -26,7 +30,12 @@ i {
 }
 
 .header-nav {
-    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    padding-top: 20px;
+    height: 50px;
 }
 header h2 {
     text-align: center;
@@ -44,35 +53,35 @@ section {
     flex-direction: row;
     align-content: space-around;
 }
+.H-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
 .section-principal {
-    background-color: plum;
+    background-color: lightcyan;;
     padding: 10px;
 }
 .section-secondaire {
-    background-color: plum;
+    background-color: lightcyan;
     padding: 10px;
 }
-.article-un {    
-    background-color: purple;
+.article-un {
     display: flex;
 }
-.article-deux {
-    background-color: purple;
-}
-.block1 {
-    background-color: grey;
-    margin: 10px;
-}
-.block2 {
-    background-color: grey;
+.block {
     margin: 10px;
 }
 
 nav {
-    background-color: orange;
     margin-top: 15px;
 }
 
 footer {
-    background-color: lightblue;
+    text-align: center;
+    background-color: lightcyan;
+}
+.form-group {
+    margin: 5px;
 }
