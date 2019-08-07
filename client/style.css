@@ -13,15 +13,19 @@ li {
     margin-left: 25px;
     margin-right: 10px;
 }
+i {
+    padding: 5px;
+}
 .header-principal {
     background-color: purple;
-    height: 100px;
-    padding-top: 50px;
+    padding: 10px;
+}
+.header-principal h1 {
+    text-align: center;
 }
 
 .header-nav {
     background-color: plum;
-    height: 50px;
 }
 
 section {
@@ -47,6 +51,7 @@ section {
 }
 .article-un {    
     background-color: purple;
+    display: flex;
 }
 .article-deux {
     background-color: purple;
