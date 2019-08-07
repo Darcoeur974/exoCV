@@ -1,7 +1,18 @@
 body {
-    background-color: grey;
+    padding: 10px;
 }
-
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul h3 {
+    margin-right: 25px;
+}
+li {
+    margin-left: 25px;
+    margin-right: 10px;
+}
 .header-principal {
     background-color: purple;
     height: 100px;
@@ -11,4 +22,27 @@ body {
 .header-nav {
     background-color: plum;
     height: 50px;
+}
+
+section {
+    margin: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.section-principal {
+    background-color: plum;
+    padding: 10px;
+}
+.section-secondaire {
+    background-color: plum;
+    padding: 10px;
+}
+
+.article-un {    
+    background-color: purple;
+}
+.article-deux {
+    background-color: purple;
 }
