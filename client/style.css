@@ -25,11 +25,17 @@ li {
 }
 
 section {
-    margin: 10px;
+    margin: 25px;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
 }
 .container {
     display: flex;
     flex-direction: row;
+    align-content: space-around;
 }
 .section-principal {
     background-color: plum;
@@ -39,10 +45,26 @@ section {
     background-color: plum;
     padding: 10px;
 }
-
 .article-un {    
     background-color: purple;
 }
 .article-deux {
     background-color: purple;
+}
+.block1 {
+    background-color: grey;
+    margin: 10px;
+}
+.block2 {
+    background-color: grey;
+    margin: 10px;
+}
+
+nav {
+    background-color: orange;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: lightblue;
 }
